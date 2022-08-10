@@ -6,6 +6,19 @@
     font-family: 'Roboto Mono', monospace;
 
 }
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1, h2{
+    flex: 0 0 auto;
+}
 
 .titulo{
     margin-top: 5%;
@@ -51,11 +64,12 @@
     text-align: center;
     margin-bottom: 10%;
     margin-top: 0%;
+    flex: 1 0 auto;
 }
 
 .pie{
     font-size: x-small;
+    flex: 0 0 auto;
 }
-
 
 
