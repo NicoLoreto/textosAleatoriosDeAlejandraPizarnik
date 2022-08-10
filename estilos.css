@@ -4,6 +4,7 @@
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
+    flex: 0 0 auto;
 
 }
 html{
@@ -51,6 +52,7 @@ h1, h2{
     width: 100px;
     height: 50px;
     background-color: rgb(109, 143, 143);
+    flex: 0 0 auto;
 }
 
 .contenedorBoton{
@@ -68,7 +70,7 @@ h1, h2{
 }
 
 .pie{
-    font-size: x-small;
+    font-size: xx-small;
     flex: 0 0 auto;
 }
 
