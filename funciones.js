@@ -28,5 +28,3 @@ function mostrarResultado (){
     console.log(resultado);
     document.getElementById("respuesta").innerHTML=resultado;
 }
-
-
